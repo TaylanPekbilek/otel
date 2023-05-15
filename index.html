@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="TR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>BreakHouse Otel</title>
+</head>
+<link rel="icon" href="./images/logo_preview_rev_1.png">
+<body style="background-color: #fbead7;">
+
+
+    <nav class="header" >
+
+        <img src="./images/logo_preview_rev_1.png" alt="logo" width="150rem" > 
+         <ul class="mainheader">
+     
+         <li> <i class="fa-solid fa-house iconlar " style="color: #000000;"></i>  <a href="#" class="yazi">AnaSayfa</a> </li>
+         <li> <i class="fa-solid fa-hotel iconlar1 " style="color: #000000;"></i> <a href="./tesisbilgileri.html" class="yazi1">  Tesis Bilgileri</a> </li>
+         <li><i class="fa-solid fa-location-dot iconlar2 " style="color: #000000;"></i> <a href="./çevrekonum.html" class="yazi2">  Çevre Ve Konum</a> </li>
+         <li><i class="fa-solid fa-bed  iconlar3 " style="color: #000000;"></i> <a href="./konaklama.html" class="yazi3">  Konaklama</a> </li>
+         <li class="kapanmicak"> <i class="fa-solid fa-bars fa-4x et" style="margin-left: auto;  color: #ffffff; " onclick="açacak()"></i></li>
+        </ul>
+    
+    
+    </nav>
+
+
+
+
+
+    
+    <div id="gökyüzü" class="dede" onclick="kapatacak()">
+
+ 
+      <div class="overlay-dede">
+        <a href="#">AnaSayfa</a>
+        <a href='./tesisbilgileri.html'>Tesis Bilgileri</a>
+        <a href="./çevrekonum.html"> Çevre Ve Konum</a>
+        <a href="./konaklama.html">Konaklama</a> 
+
+        
+    
+      </div>
+    
+    </div>
+
+
+
+
+    <div class="row main">
+        <div class="slider">
+        <img id="imgg" src="./images/havuz.jpg" alt="image" width="100%"   > 
+          <div class="buton">
+              <button onclick="back()"><i class="fa-solid fa-arrow-left fa-2x icon"></i></button>
+              <button onclick="next()"><i class="fa-solid fa-arrow-right fa-2x icon"></i></button>
+          </div>
+        </div>
+      </div>
+
+
+    
+
+
+
+
+
+
+
+    
+<div class="container maincontent">
+<div class="row content">
+
+<div class="col-12 cont">
+  
+<img src="./images/logo_preview_rev_1.png" alt="" width="15%">
+
+
+</div>
+
+
+
+</div>
+
+<div class="row mainaciklama">
+  <div class="col-12 aciklama">
+
+<b>BREAK HOUSE OTEL ; TOROS DAĞLARI VE AKDENIZIN BIRLEŞTIĞI, ÇAM ORMANLARI ILE SAKLI CENNETTE YER ALAN, KENDINE AIT OLAN 630M’LIK ÖZEL KOYU ILE TEKIROVA MERKEZINDE KONUMLANMAKTADIR.DOĞA ILE ÇEVRILI NIRVANA DOLCE VITA'DA AKDENIZ’IN GÜZELLIKLERINI KEŞFEDIN. KENDINE ÖZEL 163.000 METREKARELIK ALANA SAHIP OLAN NIRVANA DOLCE VITA'DA BINICILIKTEN DALIŞA KADAR ÇEŞITLI AKTIVITELERIN TADINI ÇIKARIN.</b>
+
+
+
+  </div>
+</div>
+
+<br>
+<br>
+
+<div class="row mainresimci">
+
+  <div class="col-6 resimci">
+
+    <img src="./images/DVMN.jpeg" alt="" width="100%" height="100%">
+  </div>
+
+  <div class="col-6 resimci "> <img src="./images/ndvvideo.jpeg" alt="" width="100%" height="100%"> </div>
+
+
+
+</div>
+
+<br>
+
+<div class="row imageler">
+  <div class="col-6 image">
+
+<img src="./images/gastmenu.jpeg" alt="" width="100%" style= 'border-radius: 10px;'>
+
+<h4  style="text-align: center;">
+  Gastronomi
+</h4>
+
+<p style="text-align: center;">Yöresel & Sağlıklı Yiyecekler ile sağlıklı yaşam konsepti...</p>
+
+<button
+ style="color: #ffffff; background-color: #00d5ff; border: none; width: 43%;
+ border-radius: 3px; margin-left: 28%;">
+<a href="" style="color: white;">Daha fazlası için Tıkla...</a> 
+</button>
+
+
+  </div>
+
+
+  <div class="col-6 image">
+
+    <img src="./images/csmft.jpeg" alt="" width="100%" style= 'border-radius: 10px;'>
+    
+    <h4  style="text-align: center;">
+      Gym
+    </h4>
+    
+    <p style="text-align: center;">TECHNOGYM'in fitness cihazları ile yepyeni bir spor </p>
+    
+    <button
+     style="color: #ffffff; background-color: #00d5ff; border: none; width: 43%;
+     border-radius: 3px; margin-left: 28%;">
+    <a href="" style="color: white;">Daha fazlası için Tıkla...</a> 
+    </button>
+    
+    
+      </div>
+
+      
+
+</div>
+
+
+<div class="row bakresim mt-5">
+  
+    <div class="col-6 im">
+
+      <img src="./images/saac.jpeg" alt="" width="100%" style= 'border-radius: 10px;'>
+      
+      <h4  style="text-align: center;">
+        Havuz ve Aquapark
+      </h4>
+      
+      <p style="text-align: center;">Mega Aquapark ile sınırsız eğlence!</p>
+      
+      <button
+       style="color: #ffffff; background-color: #00d5ff; border: none; width: 43%;
+       border-radius: 3px; margin-left: 28%;">
+      <a href="" style="color: white;">Daha fazlası için Tıkla...</a> 
+      </button>
+      
+        </div>
+
+
+        <div class="col-6 alresim">
+    
+          <img src="./images/scewd.jpeg" alt="" width="100%" style= 'border-radius: 10px;'>
+              
+          <h4  style="text-align: center;">
+            Scuba Diving
+          </h4>
+          
+          <p style="text-align: center;">Likya Yolu, Akdeniz Fokunda eşsiz dalış deneyimi...</p>
+          
+          <button
+           style="color: #ffffff; background-color: #00d5ff; border: none; width: 43%;
+           border-radius: 3px; margin-left: 28%;">
+          <a href="" style="color: white;">Daha fazlası için Tıkla...</a> 
+          </button></div>
+ 
+</div>
+
+
+
+
+
+<div class="row altresim mt-5"> 
+  
+
+
+
+
+    <div class="col-6 alresim">
+    
+      <img src="./images/sfvs.jpeg" alt="" width="100%" style= 'border-radius: 10px;'>
+          
+      <h4  style="text-align: center;">
+        Çocuklar İçin
+      </h4>
+      
+      <p style="text-align: center;">Crispy Kids Club'da her şey onlar için!</p>
+      
+      <button
+       style="color: #ffffff; background-color: #00d5ff; border: none; width: 43%;
+       border-radius: 3px; margin-left: 28%;">
+      <a href="" style="color: white;">Daha fazlası için Tıkla...</a> 
+      </button></div>
+  
+
+
+      
+    <div class="col-6 alresim">
+    
+      <img src="./images/311x170cm_cosmobike_(1)-1-min.jpg" alt="" width="100%" style= 'border-radius: 10px;'>
+          
+      <h4  style="text-align: center;">
+        Bike Friendly Hotel
+      </h4>
+      
+      <p style="text-align: center;">Bisiklet Dostu Politika  her şey onlar için!</p>
+      
+      <button
+       style="color: #ffffff; background-color: #00d5ff; border: none; width: 43%;
+       border-radius: 3px; margin-left: 28%;">
+      <a href="" style="color: white;">Daha fazlası için Tıkla...</a> 
+      </button></div>
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+<br><br><br>
+     
+
+ 
+
+<footer class="footer " style="display: flex; background-color: #000000;" >
+      
+    
+    <div class="col-md-3" style="margin-left: 9rem;">
+      <h5 style="color: white; ">iletisim</h5>
+     <div style="display: block;"><i class="fas fa-phone  fa-shake" style="color: rgb(44, 255, 44); margin-top: 5px;"></i> <a href="#" style="color: white; text-decoration: none;">+34971425588</a> </div> 
+     <div><i class="fa-sharp fa-regular fa-bell fa-shake " style="color: #00ff11;"></i> <a href="#" style="color: white; text-decoration: none;">
+      Giriş saati: 14:00 </a></div>
+   
+      <div><i class="fa-solid fa-location-arrow  fa-shake " style="color: #00ff11;"></i> <a style="color: white; text-decoration: none;">
+       Gümbet,Adnan Bodrum/Muğla</a>  </div>
+
+
+    </div>
+    <div class="col-md-3">
+      <h5 style="color: white;">Site Haritası</h5>
+      <ul class="list-unstyled">
+        <li><a href="#" style="color: white; text-decoration: none;">Ana Sayfa</a></li>
+        <li><a href="#" style="color: white; text-decoration: none;">Tesis Bilgileri</a></li>
+        <li><a href="#" style="color: white; text-decoration: none;">Çevre ve Konum</a></li>
+        <li><a href="#" style="color: white; text-decoration: none;">Konaklama</a></li>
+      </ul>
+    </div>
+
+    
+    <div class="col-md-3">
+      <h5 style="color: white;">Site Haritası</h5>
+      <ul class="list-unstyled">
+        <li><a href="#" style="color: white; text-decoration: none;">Gastronomi</a></li>
+        <li><a href="#" style="color: white; text-decoration: none;">GYM</a></li>
+        <li><a href="#" style="color: white; text-decoration: none;">Masaj</a></li>
+        <li><a href="#" style="color: white; text-decoration: none;">Çocuk Bölümü</a></li>
+        <li><a href="#" style="color: white; text-decoration: none;">Aktivite</a></li>
+        <li><a href="#" style="color: white; text-decoration: none;">Havuz&AquaPark</a></li>
+        
+      </ul>
+    </div>
+
+    <div class="col-md-3">
+      <h5 style="color: white;">Bizi Takip Edin</h5>
+      <ul class="list-unstyled">
+        <li> <i class="fa-brands fa-facebook" style="color: #005eff;"></i> <a href="#" style="color: white; text-decoration: none;"> Facebook</a></li>
+        <li><i class="fa-brands fa-twitter" style="color: #00d5ff;"></i><a href="#" style="color: white; text-decoration: none;"> Twitter</a></li>
+        <li> <i class="fa-brands fa-instagram" style="color: #e219e6;"></i><a href="#" style="color: white; text-decoration: none;"> Instagram</a></li>
+        <li> <i class="fa-brands fa-linkedin" style="color: #005eff;"></i><a href="#" style="color: white; text-decoration: none;"> LinkedIn</a></li>
+      </ul>
+    </div>
+    
+
+
+
+  </footer>
+
+
+  
+
+
+
+
+
+    <script src="./script/index.js"></script>
+    <script src="https://kit.fontawesome.com/4cfc548dd4.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
